@@ -1,0 +1,36 @@
+<div fxLayoutAlign="center" fxFill class="register-form" >
+    <mat-card class="mat-elevation-z5" fxFlex="25%" style="height: 72%; width: fit-content; margin-top: 5%; background-color: #3E363F;">
+    <form fxLayoutAlign="strecth" fxLayout="column" class="register">
+        <h1 style="margin-left: 35%; margin-top: 5%;">REGISTER</h1>
+        <mat-form-field appearance="outline"  class="em">
+            <input matInput placeholder="Enter your Email" required>
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-label>Enter your Email</mat-label>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="pass">
+            <input matInput placeholder="Enter your Password" type="password" required>
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-label>Enter your Password</mat-label>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="mob">
+            <input matInput placeholder="Enter your Mobile Number" required>
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-label>Enter your Mobile Number</mat-label>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="username">
+            <input matInput placeholder="Enter your User Name" required>
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-label>Enter your User Name</mat-label>
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="age">
+            <input matInput placeholder="Enter your Age" required>
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-label>Enter your Age</mat-label>
+        </mat-form-field>
+        <button mat-raised-button style="width: 50%; margin-left: 24%;" class="but">Sign-up</button><br>
+        <p style="margin-top: 3%; margin-left: 23%;">Already Have an Account -> 
+        <a routerLink="../login" style="color: rgb(78, 78, 228);">Login</a></p>
+    </form>
+    </mat-card>
+  </div>
+<router-outlet></router-outlet>

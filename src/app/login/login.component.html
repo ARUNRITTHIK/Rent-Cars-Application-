@@ -1,0 +1,21 @@
+<div fxLayoutAlign="center" fxFill class="login-form" >
+    <mat-card class="mat-elevation-z5" fxFlex="25%" style="height: 50%; width: fit-content; margin-top: 13%; background-color: #3E363F;">
+    <form fxLayoutAlign="strecth" fxLayout="column" class="login">
+        <h1 style="margin-left: 38%; margin-top: 5%;">LOGIN</h1>
+        <mat-form-field appearance="outline"  class="em">
+            <input matInput placeholder="Enter your Email" required>
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-label>Enter your Email</mat-label>
+        </mat-form-field><br>
+        <mat-form-field appearance="outline" class="pass">
+            <input matInput placeholder="Enter your Name" required>
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-label>Enter your Name</mat-label>
+        </mat-form-field><br>
+        <button mat-raised-button style="width: 50%; margin-left: 24%;" class="but" >Login</button><br>
+        <p style="margin-top: 10%; margin-left: 23%;">Not Have an Account -> 
+        <a routerLink="../register" style="color: rgb(78, 78, 228);">Register</a></p>
+    </form>
+    </mat-card>
+  </div>
+  <router-outlet></router-outlet>
